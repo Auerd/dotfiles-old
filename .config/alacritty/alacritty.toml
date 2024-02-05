@@ -1,0 +1,14 @@
+[font]
+size = 18
+
+[font.normal]
+family = "JetBrainsMono Nerd Font"
+
+[colors.primary]
+background = "#000000"
+
+[colors.normal]
+red = "#b33030"
+
+[window]
+opacity = 0.80

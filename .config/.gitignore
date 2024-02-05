@@ -1,0 +1,20 @@
+pavucontrol.ini
+coc/
+elinks/
+pulse/
+transmission-daemon/
+Code/
+Code - OSS/
+GIMP
+libreoffice
+browsh/
+geeqie/
+dconf/
+flameshot/
+QtProject.conf
+**/*.log
+
+# ZSH 
+*.zwc
+zsh/.zhistory
+zsh/.p*

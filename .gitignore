@@ -1,0 +1,10 @@
+*
+!.gitignore
+!.fehbg
+!.face
+!.config/
+!.config/**/*
+!.zshrc
+!.zshenv
+!.xprofile
+**/*.log
