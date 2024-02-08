@@ -60,7 +60,7 @@ tiling_drag modifier titlebar
 exec_always /bin/sh $HOME/.config/scripts/picomsel.sh
 
 # gaps
-gaps inner 7
+gaps inner 12
 gaps outer 0
 smart_gaps on
 

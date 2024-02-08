@@ -12,6 +12,7 @@ geeqie/
 dconf/
 flameshot/
 QtProject.conf
+nnn/plugins
 **/*.log
 
 # ZSH 
