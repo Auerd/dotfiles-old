@@ -43,6 +43,14 @@ alias upg="yayy && sudo flatpak update -y"
 alias pshltcm="git push -u origin HEAD"
 
 
+# Commands
+mkcdir()
+{
+    mkdir -p -- "$1" &&
+      cd -P -- "$1"
+}
+
+
 
 # Plugins
 source ~/.config/zsh/plugins/antigen.zsh
