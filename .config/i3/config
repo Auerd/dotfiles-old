@@ -30,10 +30,6 @@ font pango:JetBrainsMono NF Light 12
 # screen before suspend. Use loginctl lock-session to lock your screen.
 exec --no-startup-id xss-lock -l -- i3lock
 
-# Mouse speed
-exec_always --no-startup-id xinput --set-prop "A4TECH USB Device" "libinput Accel Speed" -1.
-# Keyboard configuration
-exec_always --no-startup-id setxkbmap -model pc105 -layout us,ru -variant qwerty -option grp:caps_toggle,grp_led:scroll
 
 # NetworkManager is the most popular way to manage wireless networks on Linux,
 # and nm-applet is a desktop environment-independent system tray GUI for it.
