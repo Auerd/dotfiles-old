@@ -1,4 +1,6 @@
 pavucontrol.ini
+noglxpicom.conf
+htop/
 coc/
 elinks/
 pulse/
@@ -13,9 +15,5 @@ dconf/
 flameshot/
 QtProject.conf
 nnn/plugins
+xkb/
 **/*.log
-
-# ZSH 
-*.zwc
-zsh/.zhistory
-zsh/.p*

@@ -7,10 +7,18 @@ local lspconfig = require "lspconfig"
 local servers = { "html", "cssls", "tsserver", "clangd", "bashls", "pyright" }
 
 for _, lsp in ipairs(servers) do
-  lspconfig[lsp].setup {
-    on_attach = on_attach,
-    capabilities = capabilities,
-  }
+  if lsp == "bashls" then
+    lspconfig[lsp].setup {
+      filetypes = {"sh", "zsh"},
+      on_attach = on_attach,
+      capabilities = capabilities,
+    }
+  else
+    lspconfig[lsp].setup {
+      on_attach = on_attach,
+      capabilities = capabilities,
+    }
+  end
 end
 
 -- 

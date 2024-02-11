@@ -57,7 +57,7 @@ floating_modifier $mod
 tiling_drag modifier titlebar
 
 # picom
-exec_always /bin/sh $HOME/.config/scripts/picomsel.sh
+exec_always /bin/sh $HOME/.config/scripts/picom/picomsel.sh
 
 # gaps
 gaps inner 12
