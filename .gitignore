@@ -7,4 +7,6 @@
 !.zshrc
 !.zshenv
 !.xprofile
+!.termux/
+!.termux/**/*
 **/*.log
